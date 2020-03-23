@@ -1,6 +1,6 @@
 const request = require("request");
 const cheerio = require("cheerio");
-const covidHistory = require('./doc/countyTimeseries.json');
+const covidHistory = require('./docs/countyTimeseries.json');
 const fs = require('fs');
 getCurrentTime = () => {
   let time = new Date().getTime();
@@ -54,3 +54,4 @@ request({
     console.log('failed',res.statusCode)
   }
 });
+

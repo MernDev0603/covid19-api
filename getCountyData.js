@@ -42,7 +42,7 @@ request({
       data: newData
     }
     covidData.push(timeseriesData);
-    fs.writeFile(`./doc/countyTimeseries.json`, JSON.stringify(covidData, null, 2), function (err) {
+    fs.writeFile(`./docs/countyTimeseries.json`, JSON.stringify(covidData, null, 2), function (err) {
       if (err) {
         console.log(err);
       } else {

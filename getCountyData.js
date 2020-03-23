@@ -1,6 +1,6 @@
 const request = require("request");
 const cheerio = require("cheerio");
-const covidHistory = require('./covid.json');
+const covidHistory = require('./covidUpdate.json');
 const fs = require('fs');
 getCurrentTime = () => {
   let time = new Date().getTime();

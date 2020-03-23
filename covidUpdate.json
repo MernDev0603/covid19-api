@@ -3245,12 +3245,12 @@
     ]
   },
   {
-    "timeStamp": 1584998037777,
+    "timeStamp": 1585002763224,
     "data": [
       {
         "county": "Los Angeles",
-        "case": 409,
-        "death": 5
+        "case": 536,
+        "death": 7
       },
       {
         "county": "Santa Clara",

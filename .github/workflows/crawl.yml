@@ -28,7 +28,7 @@ jobs:
     - run: node getCountyData.js
     - name: Commit files
       run: |
-        git config --local user.email "amazingshellyyy@gmail.com"
+        git config --local user.email "covidCAcounty-action@amazingshellyyy.com"
         git config --local user.name "amazingshellyyy.covidCAcounty"
         git commit -m "Add changes" -a
     - name: Push changes

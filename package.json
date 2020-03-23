@@ -1,0 +1,24 @@
+{
+  "name": "covid-ca-county",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getCountyData.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazingshellyyy/Covid-CA-county.git"
+  },
+  "author": "amazingshellyyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amazingshellyyy/Covid-CA-county/issues"
+  },
+  "homepage": "https://github.com/amazingshellyyy/Covid-CA-county#readme"
+}

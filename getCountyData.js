@@ -1,6 +1,6 @@
 const request = require("request");
 const cheerio = require("cheerio");
-const covidHistory = require('./covidUpdate.json');
+const covidHistory = require('./doc/countyTimeseries.json');
 const fs = require('fs');
 getCurrentTime = () => {
   let time = new Date().getTime();
@@ -42,7 +42,7 @@ request({
       data: newData
     }
     covidData.push(timeseriesData);
-    fs.writeFile(`covidUpdate.json`, JSON.stringify(covidData, null, 2), function (err) {
+    fs.writeFile(`./doc/countyTimeseries.json`, JSON.stringify(covidData, null, 2), function (err) {
       if (err) {
         console.log(err);
       } else {

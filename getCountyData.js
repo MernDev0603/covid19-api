@@ -8,7 +8,7 @@ getCurrentTime = () => {
 }
 
 let covidData = covidHistory;
-console.log(covidData);
+console.log('success');
 // request({
 //   method: 'GET',
 //   url: "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_California"

@@ -26,4 +26,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: node getCountyData.js
-
+    - name: Commit files
+      run: |
+        git config --local user.email "amazingshellyyy@gmail.com"
+        git config --local user.name "amazingshellyyy.covidCAcounty"
+        git commit -m "Add changes" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.COVID_DATA_TOKEN }}

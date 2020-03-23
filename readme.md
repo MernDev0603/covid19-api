@@ -1,7 +1,5 @@
 <h2 style="text-align:center;"> 2019 Covid-19 California County Data API</h2>
 
-<hr>
-
 ### COVID-19 California County Cases API
 This API collects California counties' data with confirmed cases and deaths number since March 16th.
 
@@ -17,7 +15,7 @@ axios.get('https://amazingshellyyy.com/covid19-CA/countyTimeseries.json')
       })
 ```
 
-The JSON contains timeStamp (stored in milliseconds) and Array of counties'case with an object of each county and its name, cases, and deaths.
+The JSON contains timeStamp (stored in milliseconds) and array of counties' cases with objects of each county and its name, cases, and deaths.
 
 ```
 [

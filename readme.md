@@ -5,7 +5,7 @@
 ### COVID-19 California County Cases API
 This API collects California counties' data with confirmed cases and deaths number since March 16th.
 
-<h3 style="color:red">Data is updated four times daily at 00:30, 07:30, 13:30 and 23:30</h3>
+<h3 style="color:red">Data is updated every hour!</h3>
 
 - Request method: GET
 - Endpoint: https://amazingshellyyy.com/covid19-CA/countyTimeseries.json

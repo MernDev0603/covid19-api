@@ -2,6 +2,8 @@
 
 ### COVID-19 California County Cases API
 This API collects California counties' data with confirmed cases and deaths number since March 16th.
+Request method: GET
+Endpoint: https://amazingshellyyy.com/covid19-CA/countyTimeseries.json
 
 Using axios
 ```js

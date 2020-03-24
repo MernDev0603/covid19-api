@@ -4025,7 +4025,11 @@
     ]
   },
   {
+<<<<<<< HEAD
     "timeStamp": 1585008140445,
+=======
+    "timeStamp": 1585008236221,
+>>>>>>> 88aa0874c8418ceeb995c6c16f8657a802d2ba78
     "data": [
       {
         "county": "Los Angeles",

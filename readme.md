@@ -1,6 +1,6 @@
 <div align="center">
   <h2>Covid-19 California County Data API</h2>
-<div>
+</div>
 
 ### COVID-19 California County Cases API
 This API collects California counties' data with confirmed cases and deaths number since March 16th.

@@ -26,6 +26,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: node getCountyData.js
+    - run: node cleanUp.js
     - name: Commit files
       run: |
         git config --local user.email "covidCAcounty-action@amazingshellyyy.com"

@@ -50,7 +50,17 @@ The JSON contains timeStamp (stored in milliseconds) and array of counties' case
   ...
 }
 ```
-
+#### Notes
+- Yuba and Sutter reports their cases together at one resource so the data is collected together
+```
+      ...
+      {
+        "county": "Yuba/Sutter",
+        "case": 3,
+        "death": 0
+      },
+      ...
+``` 
 
 #### resource
  https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_California

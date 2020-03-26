@@ -8,7 +8,7 @@ This API collects California counties' data with confirmed cases and deaths numb
 <h3 style="color:red">Data is updated every hour!</h3>
 
 - Request method: GET
-- Endpoint: https://amazingshellyyy.com/covid19-CA/countyTimeseries.json
+- Endpoint: https://amazingshellyyy.com/covid19-api/countyTimeseries.json
 
 Using axios
 ```js

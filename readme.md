@@ -13,7 +13,7 @@ This API collects California counties' data with confirmed cases and deaths numb
 Using axios
 ```js
 import axios from 'axios';
-axios.get('https://amazingshellyyy.com/covid19-CA/countyTimeseries.json')
+axios.get('https://amazingshellyyy.com/covid19-api/countyTimeseries.json')
       .then(res => {
         console.log('covid CA County data',res.data)
       })
